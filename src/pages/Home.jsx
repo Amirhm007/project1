@@ -1,14 +1,14 @@
 import Header from "../component/Header";
 import Hero from "../component/Hero";
-// import Products from "../component/products";
-// import Category from "../component/Category";
+import Products from "../component/products";
+import Category from "../component/Category";
 function Home() {
   return (
     <div>
       <Header />
       <Hero />
-      {/* <Category />
-      <Products /> */}
+      <Category />
+      <Products />
     </div>
   );
 }
